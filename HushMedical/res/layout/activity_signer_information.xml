@@ -1,0 +1,170 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignerInformation" 
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+	    <TextView
+	        android:layout_width="0dp"         
+	        android:layout_weight="2" 
+	        android:layout_height="wrap_content"
+	        android:text="@string/signer_relation_label" />
+	
+	    <Spinner
+	        android:id="@+id/signer_relation_input"
+	        android:layout_width="0dp"
+	        android:layout_weight="3"
+	        android:layout_height="wrap_content"
+	        android:entries="@array/signer_relation_input_vals"
+	        android:prompt="@string/signer_relation_input_prompt"/>
+	</LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/signer_patient_first_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+		
+		<TextView
+	        android:layout_width="0dp"         
+	        android:layout_weight="2" 
+	        android:layout_height="wrap_content"
+	        android:text="@string/signer_patient_first_name_label" />
+		
+		<EditText
+	        android:id="@+id/signer_patient_first_name_input"
+	        android:layout_width="0dp"
+	        android:inputType="text"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="3"
+	        android:singleLine="true" />
+    </LinearLayout>	
+    <LinearLayout
+        android:id="@+id/signer_patient_middle_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+		
+		<TextView
+	        android:layout_width="0dp"         
+	        android:layout_weight="2" 
+	        android:layout_height="wrap_content"
+	        android:text="@string/signer_patient_middle_name_label" />
+		
+		<EditText
+	        android:id="@+id/signer_patient_middle_name_input"
+	        android:layout_width="0dp"
+	        android:inputType="text"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="3"
+	        android:singleLine="true" />
+    </LinearLayout>	
+	<LinearLayout
+        android:id="@+id/signer_patient_last_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+		
+		<TextView
+	        android:layout_width="0dp"         
+	        android:layout_weight="2" 
+	        android:layout_height="wrap_content"
+	        android:text="@string/signer_patient_last_name_label" />
+		
+		<EditText
+	        android:id="@+id/signer_patient_last_name_input"
+	        android:layout_width="0dp"
+	        android:inputType="text"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="3"
+	        android:singleLine="true" />
+    </LinearLayout>	
+    <LinearLayout
+        android:id="@+id/signer_signer_first_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+		
+		<TextView
+	        android:layout_width="0dp"         
+	        android:layout_weight="2" 
+	        android:layout_height="wrap_content"
+	        android:text="@string/signer_signer_first_name_label" />
+		
+		<EditText
+	        android:id="@+id/signer_signer_first_name_input"
+	        android:layout_width="0dp"
+	        android:inputType="text"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="3"
+	        android:singleLine="true" />
+    </LinearLayout>	
+	<LinearLayout
+        android:id="@+id/signer_signer_middle_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+		
+		<TextView
+	        android:layout_width="0dp"         
+	        android:layout_weight="2" 
+	        android:layout_height="wrap_content"
+	        android:text="@string/signer_patient_first_name_label" />
+		
+		<EditText
+	        android:id="@+id/signer_signer_middle_name_input"
+	        android:layout_width="0dp"
+	        android:inputType="text"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="3"
+	        android:singleLine="true" />
+    </LinearLayout>	
+    <LinearLayout
+        android:id="@+id/signer_signer_last_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+		
+		<TextView
+	        android:layout_width="0dp"         
+	        android:layout_weight="2" 
+	        android:layout_height="wrap_content"
+	        android:text="@string/signer_signer_last_name_label" />
+		
+		<EditText
+	        android:id="@+id/signer_signer_last_name_input"
+	        android:layout_width="0dp"
+	        android:inputType="text"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="3"
+	        android:singleLine="true" />	
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+	    <Button
+	        android:id="@+id/signer_back"
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content"
+	        android:text="@string/signer_back" />
+	
+	    <Button
+	        android:id="@+id/signer_continue"
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content"
+	        android:text="@string/signer_continue" />
+    
+    </LinearLayout>
+    	
+</LinearLayout>

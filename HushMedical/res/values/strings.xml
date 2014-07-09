@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HushMedical</string>
+    <string name="action_settings">Settings</string>
+    <string name="form_selector_patient_consent">Patient Consent</string>
+    <string name="title_activity_signer_information">SignerInformation</string>
+    <string name="signer_relation_label">Relation to Patient</string>
+    <string name="signer_relation_input_prompt"></string>
+    <string name="signer_patient_first_name_label">Patient First Name</string>
+    <string name="signer_patient_middle_name_label">Patient Middle Name</string>
+    <string name="signer_patient_last_name_label">Patient Last Name</string>
+    <string name="signer_signer_first_name_label">Signer First Name</string>
+    <string name="signer_signer_middle_name_label">Signer Middle Name</string>
+    <string name="signer_signer_last_name_label">Signer Last Name</string>
+    <string name="signer_back">Back</string>
+    <string name="signer_continue">Continue</string>
+    <string name="consent_text">This is a long text
+        it spans multiple rows
+        we may want to program it programatticaly
+        a
+        a
+        a
+        a
+        a
+        a
+        a
+        a
+        aa
+        
+        a
+        aa
+        a
+        a
+        a
+        a
+        a
+        a
+        a
+        a
+        a
+        a
+        a
+        
+        
+        a
+        a
+        a
+        a
+        a
+        a
+        a
+        
+        a
+        a
+        a
+        a
+        a
+        a
+        
+        
+        a
+        a
+        a
+        a
+        
+        a
+        a
+        a
+        a
+        a
+        
+        a
+        a
+        a
+        a
+        a</string>
+    <string name="consent_accept_text">If you agree that you have read the entire content of the form, and accept all of the terms laid out in the patient consent form, please use your finger to sign the form on the screen of the table. Also, please fill in today’s date below.</string>
+    <string name="consent_date_label">Date</string>
+    <string name="consent_back">Back</string>
+    <string name="consent_continue">Sign Form</string>
+    <string name="consent_agree_box">I agree to the above</string>
+    
+    <string-array name="signer_relation_input_vals">
+        <item>Patient</item>
+        <item>Guardian</item>
+        <item>Legal Signer</item>
+    </string-array>
+
+    <string name="title_activity_consent_form">ConsentForm</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

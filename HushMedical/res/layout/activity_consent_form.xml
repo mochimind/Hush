@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:orientation="vertical" >
+
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <LinearLayout
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal">
+
+		    <TextView
+		        android:id="@+id/consent_text"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/consent_text" />
+    
+		    <TextView
+		        android:id="@+id/consent_accept_text"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/consent_accept_text" />
+		    
+		    <CheckBox
+		        android:id="@+id/consent_agree_box"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/consent_agree_box"
+		        android:checked="false" />
+		    
+		    <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal">
+				
+				<TextView
+			        android:layout_width="0dp"         
+			        android:layout_weight="2" 
+			        android:layout_height="wrap_content"
+			        android:text="@string/consent_date_label" />
+				
+				<EditText
+			        android:id="@+id/consent_date_input"
+			        android:layout_width="0dp"
+			        android:inputType="date"
+			        android:layout_height="wrap_content"
+			        android:layout_weight="3"
+			        android:singleLine="true" />	
+		    </LinearLayout>		    		    
+            
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+	    <Button
+	        android:id="@+id/consent_back"
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content"
+	        android:text="@string/consent_back" />
+	
+  	    <Button
+	        android:id="@+id/consent_continue"
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content"
+	        android:text="@string/consent_continue" />
+  	        
+	</LinearLayout>
+
+</LinearLayout>

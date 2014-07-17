@@ -15,71 +15,75 @@
     <string name="signer_signer_last_name_label">Signer Last Name</string>
     <string name="signer_back">Back</string>
     <string name="signer_continue">Continue</string>
-    <string name="consent_text">This is a long text
-        it spans multiple rows
-        we may want to program it programatticaly
-        a
-        a
-        a
-        a
-        a
-        a
-        a
-        a
-        aa
-        
-        a
-        aa
-        a
-        a
-        a
-        a
-        a
-        a
-        a
-        a
-        a
-        a
-        a
-        
-        
-        a
-        a
-        a
-        a
-        a
-        a
-        a
-        
-        a
-        a
-        a
-        a
-        a
-        a
-        
-        
-        a
-        a
-        a
-        a
-        
-        a
-        a
-        a
-        a
-        a
-        
-        a
-        a
-        a
-        a
+    <string name="consent_text">This is a long text\n
+        it spans multiple rows\n
+        we may want to program it programatticaly\n
+        a\n
+        a\n
+        a\n
+        a\n
+        a\n
+        a\n
+        a\n
+        a\n
+        aa\n
+        \n
+        a\n
+        aa\n
+        a\n
+        a\n
+        a\n
+        a\n
+        a\n
+        a\n
+        a\n
+        a\n
+        a\n
+        a\n
+        a\n
+        \n
+        \n
+        a\n
+        a\n
+        a\n
+        a\n
+        a\n
+        a\n
+        a\n
+        \n
+        a\n
+        a\n
+        a\n
+        a\n
+        a\n
+        a\n
+        \n
+        \n
+        a\n
+        a\n
+        a\n
+        a\n
+        \n
+        a\n
+        a\n
+        a\n
+        a\n
+        a\n
+        \n
+        a\n
+        a\n
+        a\n
+        a\n
         a</string>
     <string name="consent_accept_text">If you agree that you have read the entire content of the form, and accept all of the terms laid out in the patient consent form, please use your finger to sign the form on the screen of the table. Also, please fill in today’s date below.</string>
     <string name="consent_date_label">Date</string>
     <string name="consent_back">Back</string>
     <string name="consent_continue">Sign Form</string>
     <string name="consent_agree_box">I agree to the above</string>
+    <string name="sign_instructions">Please sign in the red box below by swiping your finger on the screen.</string>
+    <string name="sign_back">Back</string>
+    <string name="sign_redo">Redo Signature</string>
+    <string name="sign_continue">Submit Signature</string>
     
     <string-array name="signer_relation_input_vals">
         <item>Patient</item>
@@ -89,5 +93,6 @@
 
     <string name="title_activity_consent_form">ConsentForm</string>
     <string name="hello_world">Hello world!</string>
+    <string name="title_activity_sign_form">SignForm</string>
 
 </resources>

@@ -30,6 +30,10 @@
             android:name="com.hush.medical.ConsentForm"
             android:label="@string/title_activity_consent_form" >
         </activity>
+        <activity
+            android:name="com.hush.medical.SignForm"
+            android:label="@string/title_activity_sign_form" >
+        </activity>
     </application>
 
 </manifest>

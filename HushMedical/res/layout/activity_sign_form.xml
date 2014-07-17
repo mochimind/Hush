@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/sign_instructions" />
+    
+    <LinearLayout
+        android:id="@+id/sign_canvas_container"
+       	android:layout_height="0dp"
+	    android:layout_width="match_parent"
+	    android:layout_weight="5"
+       	android:orientation="vertical" />
+    
+    <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="1"
+       android:orientation="horizontal">
+
+	    <Button
+	        android:id="@+id/sign_back"
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content"
+	        android:text="@string/sign_back" />
+	    
+	    <Button
+	        android:id="@+id/sign_redo"
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content"
+	        android:text="@string/sign_redo" />
+	
+	 	<Button
+	        android:id="@+id/sign_continue"
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content"
+	        android:text="@string/sign_continue" />
+ 	        
+	</LinearLayout>	
+</LinearLayout>
